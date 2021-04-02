@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.topapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TopApps">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RSM"></activity>
+        <activity android:name=".RSAwalBross"></activity>
+        <activity android:name=".RSEkaHospital"></activity>
+        <activity android:name=".RSJTampan"></activity>
+        <activity android:name=".RSTabrani"></activity>
+        <activity android:name=".KP"></activity>
+        <activity android:name=".PolresPekanbaru"></activity>
+        <activity android:name=".KPSukajadi"></activity>
+        <activity android:name=".PolsekPayungSekaki"></activity>
+        <activity android:name=".PolsekTampan"></activity>
+        <activity android:name=".SP"></activity>
+        <activity android:name=".Hypermart"></activity>
+        <activity android:name=".Giant"></activity>
+        <activity android:name=".LotteMart"></activity>
+        <activity android:name=".IndoGrosir"></activity>
+        <activity android:name=".school"></activity>
+        <activity android:name=".SmpDY"></activity>
+        <activity android:name=".SdMdyh"></activity>
+        <activity android:name=".SmaCendana"></activity>
+        <activity android:name=".Sman15"></activity>
+
+
+
+
+    </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>
